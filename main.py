@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get('/')
 def read_root():
-    return {'Hola': 'prros'}
+    return {'Hola': 'mundo'}
